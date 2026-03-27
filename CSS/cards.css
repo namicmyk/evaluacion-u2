@@ -1,0 +1,112 @@
+/* DOCUMENTO CSS */
+
+body {
+    background-color: #8A7650;
+}
+
+header {
+    font-family: "Bebas Neue", sans-serif;
+    margin: 16px;
+}
+
+header img {
+    min-height: 1px;
+    max-height: 150px;
+    max-width: 100%;
+    margin: 16px auto;
+    display: block;
+    align-items: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 100px;
+    color: #8A7650;
+    font-weight: bold;
+    text-align: center;
+    background-color: #DBCEA5;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+section.eldia, .marley {
+    background-color: #ECE7D1;
+    font-family: "Host Grotesk", sans-serif;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    color: #8A7650;
+    background-color: #DBCEA5;
+    text-align: center;
+    margin: 16px auto;
+    border-radius: 8px;
+}
+
+div.container {
+    width: 80%;
+    padding: 16px;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+div.items {
+    width: 20%;
+    margin: 16px auto;
+    text-align: center;
+    border:#DBCEA5 solid;
+    border-radius: 8px;
+    padding: 16px;
+}
+div.items img {
+    width: auto;
+    height: 300px;
+    padding: 16px;
+    margin: 16px;
+}
+
+div.items:hover {
+    transform: scale(1.1);
+    box-shadow: #8A7650 5px 5px;
+}
+
+section.footer a {
+    background-color: #DBCEA5;
+    display: block;
+    width: 300px;
+    text-align: center;
+    padding: 8px 0px;
+    color: #8A7650;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 16px auto;
+}
+
+section.footer a:hover {
+    background-color: #8A7650;
+    color: #ECE7D1;
+    box-shadow: inset 0px 0px 15px #DBCEA5;
+    transform: scale(1.1);
+}
+
+footer.pie {
+    font-family: "Host Grotesk", sans-serif;
+    background-color: #8A7650;
+    color:#ECE7D1;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px auto;
+    margin: 16px auto;
+}
+
+/*
+https://tvtropes.org/pmwiki/pmwiki.php/Characters/AttackOnTitan
+*/

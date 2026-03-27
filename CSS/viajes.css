@@ -1,0 +1,92 @@
+/* DOCUMENTO CSS*/
+
+body {background-color: #F1E9E9;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: #15173D;
+    background-color: #982598;
+    padding: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+header h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.escocia {
+  position: relative;
+  display: inline-block;
+}
+
+.texto-encima {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F1E9E9;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.japon {
+  position: relative;
+  display: inline-block;
+}
+
+.texto-encima2 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F1E9E9;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.orlando {
+  position: relative;
+  display: inline-block;
+}
+
+.texto-encima3 {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F1E9E9;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+div img {margin: 16px auto;
+        display: block;
+        width: 800px;
+        filter: brightness(50%);
+}
+
+footer {text-align: center;
+        background-color: #15173D;
+        color: #F1E9E9;
+        font-weight: bold;
+        padding: 16px 0px;
+        margin-top: 24px;
+    }
+
+hr {
+  border: none;
+  height: 10px;
+  background-color: #E491C9;
+  width: auto;
+  margin: 20px auto;
+}
+
+/*
+        transition: filter 0.3s;
+*/
